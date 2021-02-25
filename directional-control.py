@@ -35,7 +35,7 @@ while dur != -1:
     elif direction == 4:
         intPacket= [0b0110] + [speed]*4 
     elif direction == 5:
-        intPacket= [0b0101] + [speed]*4 
+        intPacket= [0b1010] + [speed]*4 
     elif direction == 6:
         intPacket= [0b1001] + [speed]*4 
     elif direction == 7:
@@ -45,7 +45,7 @@ while dur != -1:
     elif direction == 9:
         intPacket= [0b1111, speed, 0, 0, speed] 
     elif direction == 0:
-        intPacket= [0b1010] + [speed]*4 
+        intPacket= [0b0101] + [speed]*4 
 
     speed = numpy.uint8(speed)
 
