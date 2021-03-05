@@ -10,17 +10,17 @@ volatile int rotaryCount = 0;
 #define PINA 2
 #define PINB 3 
 
-#define DIRECTION1 4  // Channel 1 motor DIR pin
-#define MOTOR1 6      // Channel 1 motor PWM pin
+#define DIRECTION1 5  // Channel 1 motor DIR pin
+#define MOTOR1 9      // Channel 1 motor PWM pin
 
-#define DIRECTION2 5  // Channel 2 motor DIR pin
-#define MOTOR2 9      // Channel 2 motor PWM pin
+#define DIRECTION2 4  // Channel 2 motor DIR pin
+#define MOTOR2 6      // Channel 2 motor PWM pin
 
-#define DIRECTION3 7  // Channel 3 motor DIR pin
-#define MOTOR3 10      // Channel 3 motor PWM pin
+#define DIRECTION3 8  // Channel 3 motor DIR pin
+#define MOTOR3 11      // Channel 3 motor PWM pin
 
-#define DIRECTION4 8  // Channel 4 motor DIR pin
-#define MOTOR4 11      // Channel 4 motor PWM pin
+#define DIRECTION4 7  // Channel 4 motor DIR pin
+#define MOTOR4 10      // Channel 4 motor PWM pin
 
 #define TIME_FORWARDS 10000
 #define TIME_BACKWARDS 10000
